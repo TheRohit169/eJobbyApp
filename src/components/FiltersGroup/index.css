@@ -1,0 +1,44 @@
+.filters-group-container {
+  width: 100%;
+}
+
+.filter-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.filter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.filter-checkbox {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  cursor: pointer;
+  accent-color: #6366f1;
+  flex-shrink: 0;
+}
+
+.filter-label {
+  color: #f8fafc;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.filter-separator {
+  border: none;
+  border-top: 1px solid #475569;
+  margin: 16px 0;
+}
